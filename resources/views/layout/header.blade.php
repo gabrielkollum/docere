@@ -378,8 +378,13 @@
                                     <i class="icon-lock"></i> Lock Screen </a>
                             </li>
                             <li>
-                                <a href="page_user_login_1.html">
+                                <a href="{{route('logout')}}" onclick="event.preventDefault();
+                                                $('#logout-form').submit()">
                                     <i class="icon-key"></i> Log Out </a>
+                                <form method="POST" action="{{ route('logout') }}" id="logout-form">
+                                    @csrf
+                                </form>
+
                             </li>
                         </ul>
                     </li>
@@ -387,7 +392,8 @@
                     <!-- BEGIN QUICK SIDEBAR TOGGLER -->
                     <li class="dropdown dropdown-extended quick-sidebar-toggler">
                         <span class="sr-only">Toggle Quick Sidebar</span>
-                        <i class="icon-logout"></i>
+                        <i class="icon-logout" href="{{route('logout')}}" onclick="event.preventDefault();
+                                                $('#logout-form').submit()"></i>
                     </li>
                     <!-- END QUICK SIDEBAR TOGGLER -->
                 </ul>
@@ -400,9 +406,9 @@
     <div class="page-header-menu">
         <div class="container">
             <!-- BEGIN HEADER SEARCH BOX -->
-            <form class="search-form" action="page_general_search.html" method="GET">
+            <form class="search-form" action="" method="GET">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" name="query">
+                    <input type="text" class="form-control" placeholder="Search" name="query"/>
                     <span class="input-group-btn">
                                             <a href="javascript:;" class="btn submit">
                                                 <i class="icon-magnifier"></i>
