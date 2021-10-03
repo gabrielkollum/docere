@@ -53,7 +53,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN LOGO -->
 <div class="logo">
     <a href="index.html">
-        <img src="{{asset('storage/images/logo.svg')}}" alt="" width="30%"/> </a>
+        <img src="{{asset('storage/images/logo.svg')}}" alt="" width="250em"/> </a>
 </div>
 <!-- END LOGO -->
 <!-- BEGIN LOGIN -->
@@ -130,7 +130,8 @@ License: You must have a valid license purchased only from themeforest(the above
     </form>
     <!-- END LOGIN FORM -->
     <!-- BEGIN FORGOT PASSWORD FORM -->
-    <form class="forget-form" action="index.html" method="post">
+    <form class="forget-form" action="{{ route('password.email') }}" method="post">
+        @csrf
         <h3>Forget Password ?</h3>
         <p> Enter your e-mail address below to reset your password. </p>
         <div class="form-group">
