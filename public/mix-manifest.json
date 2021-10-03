@@ -1,0 +1,16 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/assets/global/css/components-rounded.min.css": "/assets/global/css/components-rounded.min.css",
+    "/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css": "/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css",
+    "/assets/global/plugins/simple-line-icons/simple-line-icons.min.css": "/assets/global/plugins/simple-line-icons/simple-line-icons.min.css",
+    "/assets/global/plugins/font-awesome/css/font-awesome.min.css": "/assets/global/plugins/font-awesome/css/font-awesome.min.css",
+    "/css/app.css": "/css/app.css",
+    "/assets/global/plugins/jqvmap/jqvmap/jqvmap.css": "/assets/global/plugins/jqvmap/jqvmap/jqvmap.css",
+    "/assets/global/plugins/fullcalendar/fullcalendar.min.css": "/assets/global/plugins/fullcalendar/fullcalendar.min.css",
+    "/assets/global/plugins/morris/morris.css": "/assets/global/plugins/morris/morris.css",
+    "/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css": "/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css",
+    "/assets/layouts/layout3/css/custom.min.css": "/assets/layouts/layout3/css/custom.min.css",
+    "/assets/layouts/layout3/css/themes/default.min.css": "/assets/layouts/layout3/css/themes/default.min.css",
+    "/assets/layouts/layout3/css/layout.min.css": "/assets/layouts/layout3/css/layout.min.css",
+    "/assets/global/css/plugins.min.css": "/assets/global/css/plugins.min.css"
+}
